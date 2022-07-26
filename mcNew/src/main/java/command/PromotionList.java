@@ -14,7 +14,7 @@ public class PromotionList implements CommandHandler{
 
 	@Override
 	public String process(HttpServletRequest request, HttpServletResponse response) throws Exception {
-		System.out.println("do_get호출 test 박민주");
+		System.out.println("do_get호출 test");
 		PrmtService prmtService = PrmtService.getInstance();
 		
 		ArrayList<PromotionDTO> Plist=prmtService.select();
